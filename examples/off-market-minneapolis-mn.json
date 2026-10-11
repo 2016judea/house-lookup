@@ -1,0 +1,258 @@
+{
+  "query": "2104 Irving Ave S, Minneapolis, MN",
+  "found": true,
+  "matched": "2104 Irving Ave S Minneapolis MN 55405",
+  "property_id": "7622791096",
+  "cached": true,
+  "fetched_at": "2026-10-11T23:11:06.761Z",
+  "property": {
+    "address": {
+      "line": "2104 Irving Ave S",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zip": "55405"
+    },
+    "lat": 44.96156,
+    "lon": -93.300108,
+    "county": "Hennepin",
+    "apn": null,
+    "property_type": "single_family",
+    "beds": 5,
+    "baths": 4,
+    "sqft": 3345,
+    "lot_sqft": 16553,
+    "year_built": 1902,
+    "stories": null,
+    "garage": 2,
+    "hoa_monthly": null,
+    "photos": [
+      "http://ap.rdcpix.com/1802185441/3df730bec0afa6366760af03d37ab846l-m0s.jpg",
+      "http://ap.rdcpix.com/992696720/3df730bec0afa6366760af03d37ab846l-m1s.jpg",
+      "http://ap.rdcpix.com/2145631057/3df730bec0afa6366760af03d37ab846l-m2s.jpg",
+      "http://ap.rdcpix.com/535363886/3df730bec0afa6366760af03d37ab846l-m3s.jpg",
+      "http://ap.rdcpix.com/965404084/3df730bec0afa6366760af03d37ab846l-m4s.jpg",
+      "http://ap.rdcpix.com/1096238129/3df730bec0afa6366760af03d37ab846l-m5s.jpg",
+      "http://ap.rdcpix.com/104391206/3df730bec0afa6366760af03d37ab846l-m6s.jpg",
+      "http://ap.rdcpix.com/174797842/3df730bec0afa6366760af03d37ab846l-m7s.jpg",
+      "http://ap.rdcpix.com/411821003/3df730bec0afa6366760af03d37ab846l-m8s.jpg",
+      "http://ap.rdcpix.com/1641345398/3df730bec0afa6366760af03d37ab846l-m9s.jpg",
+      "http://ap.rdcpix.com/1721346816/3df730bec0afa6366760af03d37ab846l-m10s.jpg",
+      "http://ap.rdcpix.com/803950064/3df730bec0afa6366760af03d37ab846l-m11s.jpg",
+      "http://ap.rdcpix.com/1595834629/3df730bec0afa6366760af03d37ab846l-m12s.jpg",
+      "http://ap.rdcpix.com/1835586611/3df730bec0afa6366760af03d37ab846l-m13s.jpg",
+      "http://ap.rdcpix.com/1455633033/3df730bec0afa6366760af03d37ab846l-m14s.jpg",
+      "http://ap.rdcpix.com/1599412824/3df730bec0afa6366760af03d37ab846l-m15s.jpg",
+      "http://ap.rdcpix.com/714351445/3df730bec0afa6366760af03d37ab846l-m16s.jpg",
+      "http://ap.rdcpix.com/242049222/3df730bec0afa6366760af03d37ab846l-m17s.jpg",
+      "http://ap.rdcpix.com/977126327/3df730bec0afa6366760af03d37ab846l-m18s.jpg"
+    ],
+    "description": "Magnificent Lowry Hill Tudor, just steps away from Lake of the Isles, and within walking distance to all of Uptown. Southern exposure and private ambiance nestled on a deep set-back double lot. Bright, airy and spacious rooms with refinished hardwood floors, newer mechanics, fresh paint throughout and master suite with private bath.",
+    "source_url": "https://www.realtor.com/realestateandhomes-detail/2104-Irving-Ave-S_Minneapolis_MN_55405_M76227-91096"
+  },
+  "listing": {
+    "status": "off_market",
+    "list_price": null,
+    "last_list_price": 750000,
+    "list_date": "2016-07-28",
+    "days_on_market": null,
+    "last_sold_price": 705000,
+    "last_sold_date": "2016-11-01",
+    "estimate": null,
+    "estimate_sources": [],
+    "agent": null,
+    "brokerage": null
+  },
+  "price_history": [
+    {
+      "date": "2016-11-18",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": 750000,
+      "source": "NorthstarMLS"
+    },
+    {
+      "date": "2016-07-28",
+      "event": "listed",
+      "event_raw": "Listed",
+      "price": 750000,
+      "source": "NorthstarMLS"
+    },
+    {
+      "date": "2016-07-19",
+      "event": "delisted",
+      "event_raw": "Listing removed",
+      "price": 799900,
+      "source": "NorthstarMLS"
+    },
+    {
+      "date": "2016-07-12",
+      "event": "price_change",
+      "event_raw": "Price Changed",
+      "price": 799900,
+      "source": "NorthstarMLS"
+    },
+    {
+      "date": "2016-06-10",
+      "event": "price_change",
+      "event_raw": "Price Changed",
+      "price": 825000,
+      "source": "NorthstarMLS"
+    },
+    {
+      "date": "2016-05-03",
+      "event": "price_change",
+      "event_raw": "Price Changed",
+      "price": 865000,
+      "source": "NorthstarMLS"
+    },
+    {
+      "date": "2016-03-07",
+      "event": "listed",
+      "event_raw": "Listed",
+      "price": 875000,
+      "source": "NorthstarMLS"
+    }
+  ],
+  "tax_history": [
+    {
+      "year": 2026,
+      "tax_paid": 17893,
+      "assessed_total": 929600,
+      "assessed_land": 566000,
+      "assessed_improvements": 363600
+    },
+    {
+      "year": 2025,
+      "tax_paid": 18019,
+      "assessed_total": 967000,
+      "assessed_land": 566000,
+      "assessed_improvements": 401000
+    },
+    {
+      "year": 2024,
+      "tax_paid": 16659,
+      "assessed_total": 999000,
+      "assessed_land": 566000,
+      "assessed_improvements": 433000
+    },
+    {
+      "year": 2023,
+      "tax_paid": 16616,
+      "assessed_total": 977000,
+      "assessed_land": 566000,
+      "assessed_improvements": 411000
+    },
+    {
+      "year": 2022,
+      "tax_paid": 14151,
+      "assessed_total": 917000,
+      "assessed_land": 529000,
+      "assessed_improvements": 388000
+    },
+    {
+      "year": 2021,
+      "tax_paid": 11151,
+      "assessed_total": 763500,
+      "assessed_land": 612700,
+      "assessed_improvements": 150800
+    },
+    {
+      "year": 2020,
+      "tax_paid": 12062,
+      "assessed_total": 763500,
+      "assessed_land": 546300,
+      "assessed_improvements": 217200
+    },
+    {
+      "year": 2019,
+      "tax_paid": 12408,
+      "assessed_total": 763500,
+      "assessed_land": 546300,
+      "assessed_improvements": 217200
+    },
+    {
+      "year": 2018,
+      "tax_paid": 11071,
+      "assessed_total": 694000,
+      "assessed_land": 546300,
+      "assessed_improvements": 147700
+    },
+    {
+      "year": 2017,
+      "tax_paid": 10451,
+      "assessed_total": 647000,
+      "assessed_land": 496600,
+      "assessed_improvements": 150400
+    },
+    {
+      "year": 2016,
+      "tax_paid": 10780,
+      "assessed_total": 647000,
+      "assessed_land": 496600,
+      "assessed_improvements": 150400
+    },
+    {
+      "year": 2015,
+      "tax_paid": 11304,
+      "assessed_total": 647000,
+      "assessed_land": 496600,
+      "assessed_improvements": 150400
+    },
+    {
+      "year": 2014,
+      "tax_paid": 10915,
+      "assessed_total": 591000,
+      "assessed_land": 472700,
+      "assessed_improvements": 118300
+    },
+    {
+      "year": 2013,
+      "tax_paid": 11359,
+      "assessed_total": 609000,
+      "assessed_land": 491500,
+      "assessed_improvements": 117500
+    },
+    {
+      "year": 2012,
+      "tax_paid": 12142,
+      "assessed_total": 648000,
+      "assessed_land": 491500,
+      "assessed_improvements": 156500
+    },
+    {
+      "year": 2011,
+      "tax_paid": 12406,
+      "assessed_total": 687500,
+      "assessed_land": 491500,
+      "assessed_improvements": 196000
+    },
+    {
+      "year": 2010,
+      "tax_paid": 11266,
+      "assessed_total": 709000,
+      "assessed_land": 491500,
+      "assessed_improvements": 217500
+    },
+    {
+      "year": 2009,
+      "tax_paid": 11393,
+      "assessed_total": 709000,
+      "assessed_land": 491500,
+      "assessed_improvements": 217500
+    },
+    {
+      "year": 2008,
+      "tax_paid": 10275,
+      "assessed_total": 709000,
+      "assessed_land": 491500,
+      "assessed_improvements": 217500
+    },
+    {
+      "year": 2007,
+      "tax_paid": 10548,
+      "assessed_total": 709000,
+      "assessed_land": 378100,
+      "assessed_improvements": 330900
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "house-lookup",
+  "version": "0.1.0",
+  "description": "Type any US residential address, get its listing status, price history, tax history and facts.",
+  "type": "module",
+  "bin": { "lookup": "bin/lookup.js" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "license": "MIT",
+  "engines": { "node": ">=20" }
+}

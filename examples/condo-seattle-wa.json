@@ -1,0 +1,265 @@
+{
+  "query": "7850 E Green Lake Dr N Unit 301, Seattle, WA",
+  "found": true,
+  "matched": "7850 E Green Lake Dr N Apt 301 Seattle WA 98103",
+  "property_id": "1050223796",
+  "cached": true,
+  "fetched_at": "2026-10-11T23:11:06.859Z",
+  "property": {
+    "address": {
+      "line": "7850 E Green Lake Dr N Apt 301",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98103"
+    },
+    "lat": 47.685738,
+    "lon": -122.33634,
+    "county": "King",
+    "apn": null,
+    "property_type": "condos",
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1090,
+    "lot_sqft": 17664,
+    "year_built": 1978,
+    "stories": 1,
+    "garage": null,
+    "hoa_monthly": 766,
+    "photos": [
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m1279228006s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m1513313332s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m485888269s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m2984995970s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m77124277s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m368225007s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m3750044488s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m4231145199s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m2031890217s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m4055255953s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m3882879752s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m2293033575s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m3146133433s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m3560391014s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m3334380033s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m2527793130s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m525646651s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m2618067317s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m3895888374s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m456781453s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m1058807436s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m380575429s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m1088935284s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m2828645458s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m851258677s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m4214933722s.jpg",
+      "http://ap.rdcpix.com/901d43f22cab144010e5c40491405545l-m4255584550s.jpg"
+    ],
+    "description": "The ultimate Urban Oasis! Top-floor, corner unit, fully updated and ready for you. This home is in the heart of Greenlake & checks all the boxes. Whether you're ready to settle in or looking for a smart investment. Every detail has been thoughtfully updated to balance comfort, style, and function. Spacious primary suite, open layout, private parking, natural light, updated kitchen, and a gas fireplace that brings both warmth and style to the home. Enjoy your private covered outdoor deck for your morning cup of coffee. Boutique building, Elevator, low HOA & prime location- Close to all things Green Lake. Easy access to 99, I-5 & Rail. Emotional Support Dogs(ESA) are accepted!",
+    "source_url": "https://www.realtor.com/realestateandhomes-detail/7850-E-Green-Lake-Dr-N-Apt-301_Seattle_WA_98103_M10502-23796"
+  },
+  "listing": {
+    "status": "off_market",
+    "list_price": null,
+    "last_list_price": 739950,
+    "list_date": "2025-07-18",
+    "days_on_market": null,
+    "last_sold_price": 739950,
+    "last_sold_date": "2025-10-14",
+    "estimate": 723399,
+    "estimate_sources": [
+      {
+        "source": "Collateral Analytics",
+        "estimate": 726000
+      },
+      {
+        "source": "Quantarium",
+        "estimate": 738298
+      },
+      {
+        "source": "Cotality™",
+        "estimate": 705900
+      }
+    ],
+    "agent": null,
+    "brokerage": null
+  },
+  "price_history": [
+    {
+      "date": "2025-10-14",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": 739950,
+      "source": "NWMLS"
+    },
+    {
+      "date": "2025-09-05",
+      "event": "price_change",
+      "event_raw": "Price Changed",
+      "price": 739950,
+      "source": "NWMLS"
+    },
+    {
+      "date": "2025-07-18",
+      "event": "listed",
+      "event_raw": "Listed",
+      "price": 759950,
+      "source": "NWMLS"
+    },
+    {
+      "date": "2018-08-01",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": 683000,
+      "source": "NWMLS"
+    },
+    {
+      "date": "2018-06-20",
+      "event": "listed",
+      "event_raw": "Listed",
+      "price": 665000,
+      "source": "NWMLS"
+    },
+    {
+      "date": "2015-01-29",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": 400000,
+      "source": "NWMLS"
+    },
+    {
+      "date": "2014-11-14",
+      "event": "listed",
+      "event_raw": "Listed",
+      "price": 435000,
+      "source": "NWMLS"
+    }
+  ],
+  "tax_history": [
+    {
+      "year": 2026,
+      "tax_paid": 7650,
+      "assessed_total": 748000,
+      "assessed_land": 317200,
+      "assessed_improvements": 430800
+    },
+    {
+      "year": 2025,
+      "tax_paid": 7025,
+      "assessed_total": 748000,
+      "assessed_land": 317200,
+      "assessed_improvements": 430800
+    },
+    {
+      "year": 2024,
+      "tax_paid": 7068,
+      "assessed_total": 740000,
+      "assessed_land": 317200,
+      "assessed_improvements": 422800
+    },
+    {
+      "year": 2023,
+      "tax_paid": 5537,
+      "assessed_total": 658000,
+      "assessed_land": 310300,
+      "assessed_improvements": 347700
+    },
+    {
+      "year": 2022,
+      "tax_paid": 5798,
+      "assessed_total": 635000,
+      "assessed_land": 299400,
+      "assessed_improvements": 335600
+    },
+    {
+      "year": 2021,
+      "tax_paid": 5785,
+      "assessed_total": 602000,
+      "assessed_land": 288500,
+      "assessed_improvements": 313500
+    },
+    {
+      "year": 2020,
+      "tax_paid": 6426,
+      "assessed_total": 678000,
+      "assessed_land": 255900,
+      "assessed_improvements": 422100
+    },
+    {
+      "year": 2019,
+      "tax_paid": 5200,
+      "assessed_total": 609000,
+      "assessed_land": 201400,
+      "assessed_improvements": 407600
+    },
+    {
+      "year": 2018,
+      "tax_paid": 5050,
+      "assessed_total": 513000,
+      "assessed_land": 157800,
+      "assessed_improvements": 355200
+    },
+    {
+      "year": 2017,
+      "tax_paid": 4378,
+      "assessed_total": 459000,
+      "assessed_land": 141500,
+      "assessed_improvements": 317500
+    },
+    {
+      "year": 2016,
+      "tax_paid": 4220,
+      "assessed_total": 432000,
+      "assessed_land": 130600,
+      "assessed_improvements": 301400
+    },
+    {
+      "year": 2015,
+      "tax_paid": 3821,
+      "assessed_total": 400000,
+      "assessed_land": 119700,
+      "assessed_improvements": 280300
+    },
+    {
+      "year": 2014,
+      "tax_paid": 3133,
+      "assessed_total": 295000,
+      "assessed_land": 108800,
+      "assessed_improvements": 186200
+    },
+    {
+      "year": 2013,
+      "tax_paid": 3325,
+      "assessed_total": 308000,
+      "assessed_land": 108800,
+      "assessed_improvements": 199200
+    },
+    {
+      "year": 2012,
+      "tax_paid": 3480,
+      "assessed_total": 374000,
+      "assessed_land": 114300,
+      "assessed_improvements": 259700
+    },
+    {
+      "year": 2011,
+      "tax_paid": 3689,
+      "assessed_total": 350000,
+      "assessed_land": 114300,
+      "assessed_improvements": 235700
+    },
+    {
+      "year": 2009,
+      "tax_paid": 3200,
+      "assessed_total": 393000,
+      "assessed_land": 92500,
+      "assessed_improvements": 300500
+    },
+    {
+      "year": 2007,
+      "tax_paid": 3035,
+      "assessed_total": 351000,
+      "assessed_land": 92500,
+      "assessed_improvements": 258500
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "query": "3301 E Warren Ave, Denver, CO",
+  "found": true,
+  "matched": "3301 E Warren Ave Denver CO 80210",
+  "property_id": "1869151534",
+  "cached": true,
+  "fetched_at": "2026-10-11T23:11:06.808Z",
+  "property": {
+    "address": {
+      "line": "3301 E Warren Ave",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80210"
+    },
+    "lat": 39.676786,
+    "lon": -104.94903,
+    "county": "Denver",
+    "apn": null,
+    "property_type": "single_family",
+    "beds": 4,
+    "baths": 6,
+    "sqft": 5385,
+    "lot_sqft": 7931,
+    "year_built": 2006,
+    "stories": 2,
+    "garage": 3,
+    "hoa_monthly": 0,
+    "photos": [
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b2098034173s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b2414828286s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b412374565s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b1306212030s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b2472598417s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b2518800075s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b2655434398s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b1646722368s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b2526220106s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b3806735335s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b1720423089s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b270883265s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b2890595717s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b2663806000s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b3003175665s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b2860332745s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b3575752578s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b726464243s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b343056217s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b3671650779s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b4131615861s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b1081600640s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b1538823122s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b3295030350s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b476879629s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b1877891308s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b896725867s.jpg",
+      "http://ap.rdcpix.com/1f6b145a415a91ca4d324f21695cf980l-b3075001981s.jpg"
+    ],
+    "description": "Situated on a picturesque tree-lined street and an over-sized lot, this remodeled home has timeless architectural details from the exterior brick faade to the wood beamed ceilings, wide, wood planked floors and curved wrought iron staircase. The main level has a beautiful office with French doors to a covered patio, a kitchen with a spacious center island, pantry, refrigerator drawers and more and is adjacent to the dining room and living room with a cozy fireplace. The primary suite, located on the upper level, offers a tranquil sanctuary with a fireplace, spa-like bathroom and two generous walk-in closets. Two additional bedrooms, each have their own ensuite bathrooms and one has a lovely balcony. The finished basement with 10 ft. ceilings has a living room, bar area, guest suite with attached bathroom, wine cellar, a flex room a room and an exercise room. The professionally landscaped backyard has a spacious patio area with a pergola and a fire pit and built in gas grill which makes it ideal for alfresco dining and outdoor entertaining. Located in the heart of Observatory Park, residents enjoy easy access to parks, schools, shops, restaurants, and all the amenities this coveted neighborhood has to offer.",
+    "source_url": "https://www.realtor.com/realestateandhomes-detail/3301-E-Warren-Ave_Denver_CO_80210_M18691-51534"
+  },
+  "listing": {
+    "status": "off_market",
+    "list_price": null,
+    "last_list_price": 3000000,
+    "list_date": "2024-08-19",
+    "days_on_market": null,
+    "last_sold_price": 3000000,
+    "last_sold_date": "2024-04-15",
+    "estimate": 2941638,
+    "estimate_sources": [
+      {
+        "source": "Quantarium",
+        "estimate": 2970513
+      },
+      {
+        "source": "Collateral Analytics",
+        "estimate": 3003000
+      },
+      {
+        "source": "Cotality™",
+        "estimate": 2851400
+      }
+    ],
+    "agent": null,
+    "brokerage": null
+  },
+  "price_history": [
+    {
+      "date": "2024-04-15",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": 3000000,
+      "source": "REcolorado"
+    },
+    {
+      "date": "2023-06-28",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": 2875000,
+      "source": "REcolorado"
+    },
+    {
+      "date": "2015-03-16",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": 1750000,
+      "source": "Public Record"
+    },
+    {
+      "date": "2011-03-31",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": 943000,
+      "source": "Public Record"
+    },
+    {
+      "date": "2005-09-14",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": 1000000,
+      "source": "Public Record"
+    },
+    {
+      "date": "1990-07-23",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": 170000,
+      "source": "Public Record"
+    }
+  ],
+  "tax_history": [
+    {
+      "year": 2025,
+      "tax_paid": 15557,
+      "assessed_total": 180290,
+      "assessed_land": 70560,
+      "assessed_improvements": 109730
+    },
+    {
+      "year": 2024,
+      "tax_paid": 16396,
+      "assessed_total": 180290,
+      "assessed_land": 70560,
+      "assessed_improvements": 109730
+    },
+    {
+      "year": 2023,
+      "tax_paid": 16041,
+      "assessed_total": 207020,
+      "assessed_land": 71960,
+      "assessed_improvements": 135060
+    },
+    {
+      "year": 2022,
+      "tax_paid": 12828,
+      "assessed_total": 161320,
+      "assessed_land": 51410,
+      "assessed_improvements": 109910
+    },
+    {
+      "year": 2021,
+      "tax_paid": 12384,
+      "assessed_total": 165970,
+      "assessed_land": 52890,
+      "assessed_improvements": 113080
+    },
+    {
+      "year": 2020,
+      "tax_paid": 11269,
+      "assessed_total": 151890,
+      "assessed_land": 36190,
+      "assessed_improvements": 115700
+    },
+    {
+      "year": 2019,
+      "tax_paid": 10953,
+      "assessed_total": 151890,
+      "assessed_land": 36190,
+      "assessed_improvements": 115700
+    },
+    {
+      "year": 2018,
+      "tax_paid": 10294,
+      "assessed_total": 133060,
+      "assessed_land": 36440,
+      "assessed_improvements": 96620
+    },
+    {
+      "year": 2017,
+      "tax_paid": 10263,
+      "assessed_total": 133060,
+      "assessed_land": 36440,
+      "assessed_improvements": 96620
+    },
+    {
+      "year": 2016,
+      "tax_paid": 9467,
+      "assessed_total": 116100,
+      "assessed_land": 21690,
+      "assessed_improvements": 94410
+    },
+    {
+      "year": 2015,
+      "tax_paid": 9070,
+      "assessed_total": 116100,
+      "assessed_land": 21690,
+      "assessed_improvements": 94410
+    },
+    {
+      "year": 2014,
+      "tax_paid": 6631,
+      "assessed_total": 79840,
+      "assessed_land": 17780,
+      "assessed_improvements": 62060
+    },
+    {
+      "year": 2013,
+      "tax_paid": 6633,
+      "assessed_total": 79840,
+      "assessed_land": 17780,
+      "assessed_improvements": 62060
+    },
+    {
+      "year": 2012,
+      "tax_paid": 7153,
+      "assessed_total": 85090,
+      "assessed_land": 14877,
+      "assessed_improvements": 70213
+    },
+    {
+      "year": 2010,
+      "tax_paid": 7193,
+      "assessed_total": 85090,
+      "assessed_land": 14877,
+      "assessed_improvements": 70213
+    },
+    {
+      "year": 2009,
+      "tax_paid": 7036,
+      "assessed_total": 108030,
+      "assessed_land": 14877,
+      "assessed_improvements": 93153
+    },
+    {
+      "year": 2008,
+      "tax_paid": 6833,
+      "assessed_total": 108030,
+      "assessed_land": 14877,
+      "assessed_improvements": 93153
+    },
+    {
+      "year": 2007,
+      "tax_paid": 6844,
+      "assessed_total": 102320,
+      "assessed_land": 14877,
+      "assessed_improvements": 87443
+    }
+  ]
+}

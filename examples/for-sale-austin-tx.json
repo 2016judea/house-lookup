@@ -1,0 +1,373 @@
+{
+  "query": "9706 Woodshire Dr, Austin, TX",
+  "found": true,
+  "matched": "9706 Woodshire Dr Austin TX 78748",
+  "property_id": "8176732518",
+  "cached": true,
+  "fetched_at": "2026-10-11T23:11:06.716Z",
+  "property": {
+    "address": {
+      "line": "9706 Woodshire Dr",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78748"
+    },
+    "lat": 30.177884,
+    "lon": -97.829332,
+    "county": "Travis",
+    "apn": null,
+    "property_type": "single_family",
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1753,
+    "lot_sqft": 6704,
+    "year_built": 1983,
+    "stories": 1,
+    "garage": 2,
+    "hoa_monthly": 0,
+    "photos": [
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m824975795s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m330115205s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m3178428585s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m2761030076s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m720790441s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m293604461s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m2759712231s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m3544505342s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m1958562886s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m4224463649s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m418376427s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m2212203877s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m402663371s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m378881251s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m1309682446s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m264096791s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m391284226s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m2951821158s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m2374467298s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m2900513304s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m2404212871s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m2481189300s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m2338355695s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m1598084928s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m1954228304s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m2847556844s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m3257395309s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m1587373816s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m3914108861s.jpg",
+      "http://ap.rdcpix.com/6e47fb8445d07699f725e3f899ea450el-m1557072042s.jpg"
+    ],
+    "description": "Welcome to this beautifully renovated, single-story home in highly desirable Tanglewood Forest. Soaring ceilings, abundant natural light, and an open, functional floor plan create a warm and inviting space for everyday living and entertaining. The spacious family room features wood floors, a vaulted ceiling, and a cozy wood-burning fireplace, flowing seamlessly into the kitchen and breakfast area. The kitchen offers plenty of workspace, an oversized black marble island, designer lighting, ample cabinetry, stainless steel appliances, a gas range, open shelving, and a sunny dining nook overlooking the backyard. The private primary suite includes two closets, an ensuite bath with a walk-in shower and dual vanities, plus direct access to the covered patio. Two additional bedrooms and an updated bathroom provide flexibility for guests, family, or a home office. Outside, enjoy the fenced backyard, mature trees, expansive deck, and custom pergola with a retractable canopy, perfect for relaxing or entertaining. Conveniently located near shopping, dining, parks, and major commuter routes, this home offers comfort, style, and the best of South Austin living.",
+    "source_url": "https://www.realtor.com/realestateandhomes-detail/9706-Woodshire-Dr_Austin_TX_78748_M81767-32518"
+  },
+  "listing": {
+    "status": "for_sale",
+    "list_price": 535000,
+    "last_list_price": null,
+    "list_date": "2026-10-09",
+    "days_on_market": 2,
+    "last_sold_price": null,
+    "last_sold_date": "2022-09-22",
+    "estimate": 568965,
+    "estimate_sources": [
+      {
+        "source": "Cotality™",
+        "estimate": 572900
+      },
+      {
+        "source": "Quantarium",
+        "estimate": 584996
+      },
+      {
+        "source": "Collateral Analytics",
+        "estimate": 549000
+      }
+    ],
+    "agent": "Dina Dillard",
+    "brokerage": "Spyglass Realty"
+  },
+  "price_history": [
+    {
+      "date": "2026-10-09",
+      "event": "listed",
+      "event_raw": "Listed",
+      "price": 535000,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2026-06-29",
+      "event": "listed",
+      "event_raw": "Listed",
+      "price": 599000,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2025-09-20",
+      "event": "delisted",
+      "event_raw": "Listing removed",
+      "price": null,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2025-09-03",
+      "event": "price_change",
+      "event_raw": "Price Changed",
+      "price": 630000,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2025-04-24",
+      "event": "price_change",
+      "event_raw": "Price Changed",
+      "price": 650000,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2025-04-04",
+      "event": "price_change",
+      "event_raw": "Price Changed",
+      "price": 685000,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2025-03-19",
+      "event": "listed",
+      "event_raw": "Listed",
+      "price": 750000,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2022-09-22",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": null,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2022-08-24",
+      "event": "price_change",
+      "event_raw": "Price Changed",
+      "price": 699800,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2022-08-11",
+      "event": "price_change",
+      "event_raw": "Price Changed",
+      "price": 799800,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2022-08-04",
+      "event": "listed",
+      "event_raw": "Listed",
+      "price": 824900,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2021-07-12",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": null,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2021-06-04",
+      "event": "listed",
+      "event_raw": "Listed",
+      "price": 399900,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2017-07-15",
+      "event": "delisted",
+      "event_raw": "Listing removed",
+      "price": 1650,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2017-06-17",
+      "event": "price_change",
+      "event_raw": "Price Changed for rent",
+      "price": 1650,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2017-05-19",
+      "event": "rental",
+      "event_raw": "Listed for rent",
+      "price": 1695,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2013-08-03",
+      "event": "delisted",
+      "event_raw": "Listing removed",
+      "price": 1475,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2013-07-30",
+      "event": "rental",
+      "event_raw": "Listed for rent",
+      "price": 1475,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2011-01-25",
+      "event": "delisted",
+      "event_raw": "Listing removed",
+      "price": 1250,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2011-01-21",
+      "event": "rental",
+      "event_raw": "Listed for rent",
+      "price": 1250,
+      "source": "UnlockMLS"
+    },
+    {
+      "date": "2002-06-14",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": null,
+      "source": "Public Record"
+    },
+    {
+      "date": "2000-06-29",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": null,
+      "source": "Public Record"
+    },
+    {
+      "date": "1994-09-29",
+      "event": "sold",
+      "event_raw": "Sold",
+      "price": null,
+      "source": "Public Record"
+    }
+  ],
+  "tax_history": [
+    {
+      "year": 2026,
+      "tax_paid": 11441,
+      "assessed_total": 500833,
+      "assessed_land": 239198,
+      "assessed_improvements": 261635
+    },
+    {
+      "year": 2025,
+      "tax_paid": 11854,
+      "assessed_total": 524095,
+      "assessed_land": 292353,
+      "assessed_improvements": 231742
+    },
+    {
+      "year": 2023,
+      "tax_paid": 11505,
+      "assessed_total": 583421,
+      "assessed_land": 275000,
+      "assessed_improvements": 308421
+    },
+    {
+      "year": 2022,
+      "tax_paid": 12028,
+      "assessed_total": 359694,
+      "assessed_land": 125000,
+      "assessed_improvements": 234694
+    },
+    {
+      "year": 2021,
+      "tax_paid": 8691,
+      "assessed_total": 280689,
+      "assessed_land": 125000,
+      "assessed_improvements": 155689
+    },
+    {
+      "year": 2020,
+      "tax_paid": 6553,
+      "assessed_total": 280689,
+      "assessed_land": 125000,
+      "assessed_improvements": 155689
+    },
+    {
+      "year": 2019,
+      "tax_paid": 6694,
+      "assessed_total": 267409,
+      "assessed_land": 100000,
+      "assessed_improvements": 167409
+    },
+    {
+      "year": 2018,
+      "tax_paid": 6428,
+      "assessed_total": 248463,
+      "assessed_land": 100000,
+      "assessed_improvements": 148463
+    },
+    {
+      "year": 2017,
+      "tax_paid": 5976,
+      "assessed_total": 223206,
+      "assessed_land": 50000,
+      "assessed_improvements": 173206
+    },
+    {
+      "year": 2016,
+      "tax_paid": 5524,
+      "assessed_total": 208744,
+      "assessed_land": 50000,
+      "assessed_improvements": 158744
+    },
+    {
+      "year": 2014,
+      "tax_paid": 4822,
+      "assessed_total": 188187,
+      "assessed_land": 50000,
+      "assessed_improvements": 138187
+    },
+    {
+      "year": 2013,
+      "tax_paid": 4410,
+      "assessed_total": 152970,
+      "assessed_land": 50000,
+      "assessed_improvements": 102970
+    },
+    {
+      "year": 2012,
+      "tax_paid": 3954,
+      "assessed_total": 183413,
+      "assessed_land": null,
+      "assessed_improvements": null
+    },
+    {
+      "year": 2011,
+      "tax_paid": 4621,
+      "assessed_total": 183413,
+      "assessed_land": null,
+      "assessed_improvements": null
+    },
+    {
+      "year": 2010,
+      "tax_paid": 4432,
+      "assessed_total": 173564,
+      "assessed_land": null,
+      "assessed_improvements": null
+    },
+    {
+      "year": 2009,
+      "tax_paid": 4145,
+      "assessed_total": 169087,
+      "assessed_land": null,
+      "assessed_improvements": null
+    },
+    {
+      "year": 2008,
+      "tax_paid": 4012,
+      "assessed_total": 148849,
+      "assessed_land": null,
+      "assessed_improvements": null
+    }
+  ]
+}
