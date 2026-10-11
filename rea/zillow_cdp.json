@@ -1,0 +1,4 @@
+{"browser":{"mode":"connect","cdp_endpoint":"http://127.0.0.1:9333","target_id":"F16A79828AF725FB5B1130FBC91731D4"},
+ "start_url":{"url":"https://www.zillow.com/homedetails/2104-Irving-Ave-S-Minneapolis-MN-55405/2000850_zpid/","query":[]},
+ "actions":[{"step_id":"settle","action":"wait_for_timeout","duration_ms":12000}],
+ "capture":{"at_end":["url"],"events":["network"],"network":{"request_body":true,"response_body":true,"header_values":false}}}

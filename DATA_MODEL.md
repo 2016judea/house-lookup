@@ -51,6 +51,32 @@ Joins: Property 1—1 Listing status; Property 1—N Price event.
 
 Joins: Property 1—N Tax.
 
-## Reality check (filled in after probing — see bottom of README)
+## Reality check (2026-10-11, after probing)
 
-Pending: written after the endpoint probe, field by field.
+Source landed on: Realtor.com's address suggester + its `frontdoor/graphql`
+`home(property_id)` query. Checked on 4 houses in TX, MN, CO, WA (`examples/`).
+
+| field | fills? | note |
+|---|---|---|
+| address, lat/lon, county | yes, 4/4 | |
+| apn | **no, 0/4** | `tax_record.apn` exists in the schema and came back null every time |
+| property_type, beds, baths, sqft, lot_sqft, year_built | yes, 4/4 | |
+| stories, garage, hoa_monthly | partial | null when the MLS record never carried them |
+| photos | yes, 19–30 per house | full-size via a URL rewrite |
+| description | listed homes; off-market keeps the last listing's text | |
+| status | yes | `pending` only via `flags.is_pending/is_contingent`; not yet seen live |
+| list_price, list_date | yes when for sale | |
+| days_on_market | computed from list_date | the API's own field is null |
+| last_sold_price, last_sold_date | yes, except non-disclosure states | TX returns 0 → reported as undisclosed, never $0 |
+| estimate | 3/4 | three AVMs (Cotality, Quantarium, Collateral Analytics); none published for the MN house |
+| agent, brokerage | yes when for sale | |
+| price events (date, event, price, MLS source) | yes, 6–23 per house | event names are the source's own ("Listing removed"), mapped to the model's enum |
+| tax (year, tax paid, assessed total/land/improvements) | yes, 17–20 years per house | years can be skipped (TX has no 2024 row) |
+
+One field fails outright: **APN**. It is a join key, not something a buyer reads,
+so the tool ships without it rather than reshaping around it; filling it would
+mean per-county assessor lookups, which is a different product.
+
+The deed price and the MLS "Sold" event disagree on some houses (MN: deed
+$705,000 on 2016-11-01, MLS Sold $750,000 on 2016-11-18). Both are kept: the
+deed figure is `last_sold_price`, the MLS one stays in `price_history`.

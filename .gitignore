@@ -3,3 +3,5 @@ cache/
 .vercel/
 .env
 *.har
+rea/*.out.json
+rea/*.err

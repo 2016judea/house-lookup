@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>House Lookup</title>
+<meta name="description" content="Type any US address. See if it's for sale, what it last sold for, its price history and its taxes.">
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)}</script><script defer src="/_vercel/insights/script.js"></script>
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--ink:#1c1b19;--mute:#6b675f;--line:#e4e0d6;--accent:#1f5f4a;--sale:#1f7a4d;--pend:#a86b00;--off:#6b675f}
+@media (prefers-color-scheme:dark){:root{--bg:#141412;--card:#1d1c1a;--ink:#eeebe4;--mute:#a19c92;--line:#2f2d29;--accent:#6fc2a0;--sale:#5fcf93;--pend:#e0a43c;--off:#a19c92}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:16px}
+form{display:flex;gap:8px;margin:4px 0 16px}
+input{flex:1;min-width:0;font-size:16px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+button{font-size:16px;padding:12px 16px;border:0;border-radius:10px;background:var(--accent);color:#fff;font-weight:600;cursor:pointer}
+button:disabled{opacity:.6}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:12px}
+.addr{font-size:20px;font-weight:700;margin:0}
+.sub{color:var(--mute);font-size:14px;margin:2px 0 0}
+.badge{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;padding:3px 8px;border-radius:99px;color:#fff;margin:12px 0 4px}
+.price{font-size:34px;font-weight:800;margin:0;letter-spacing:-.01em}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+.facts div{border-top:1px solid var(--line);padding-top:6px}
+.facts b{display:block;font-size:17px}
+.facts span{color:var(--mute);font-size:12px}
+.photos{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px;padding:0 16px 4px}
+.photos img{height:200px;width:auto;border-radius:10px;scroll-snap-align:start;flex:none;background:var(--line)}
+h2{font-size:15px;margin:0 0 8px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td{padding:7px 0;border-top:1px solid var(--line)}
+td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+td.m{color:var(--mute)}
+a{color:var(--accent)}
+.err{color:#b3261e}
+.foot{color:var(--mute);font-size:12px;margin:16px 0 32px}
+.foot a{color:inherit}
+@media (min-width:700px){.facts{grid-template-columns:repeat(6,1fr)}.photos img{height:260px}}
+</style>
+</head>
+<body>
+<main>
+<form id="f">
+  <input id="q" name="a" autocomplete="street-address" placeholder="Any US street address" value="9706 Woodshire Dr, Austin, TX">
+  <button id="go">Look up</button>
+</form>
+<div id="out"></div>
+<p class="foot">Listing, sale and tax records as Realtor.com publishes them. A price of "undisclosed" means the state doesn't record sale prices or the seller withheld it.</p>
+</main>
+<script>
+const $ = n => n == null ? "undisclosed" : "$" + Math.round(n).toLocaleString("en-US");
+const num = n => n == null ? "—" : n.toLocaleString("en-US");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const STATUS = {for_sale:["FOR SALE","var(--sale)"],pending:["PENDING","var(--pend)"],off_market:["OFF MARKET","var(--off)"],for_rent:["FOR RENT","var(--pend)"]};
+function render(r){
+  const out = document.getElementById("out");
+  if(!r.found){ out.innerHTML = `<div class="card"><p class="err">${esc(r.error)}</p>${r.did_you_mean?.length?`<p class="sub">Did you mean: ${r.did_you_mean.map(d=>`<a href="?a=${encodeURIComponent(d)}">${esc(d)}</a>`).join(" · ")}</p>`:""}</div>`; return; }
+  const p=r.property,l=r.listing,[label,color]=STATUS[l.status]||[String(l.status).toUpperCase(),"var(--off)"];
+  const live = l.status==="for_sale"||l.status==="pending";
+  const big = live ? $(l.list_price) : (l.estimate!=null ? $(l.estimate) : $(l.last_sold_price));
+  const bigNote = live ? (l.days_on_market!=null?`listed ${l.list_date} · ${l.days_on_market} days`:"") + (l.agent?` · ${esc(l.agent)}, ${esc(l.brokerage)}`:"")
+    : (l.estimate!=null ? `estimated value · last sold ${$(l.last_sold_price)} on ${l.last_sold_date??"—"}` : `last sold on ${l.last_sold_date??"—"}`);
+  const t=r.tax_history[0];
+  out.innerHTML = `
+  <div class="card">
+    <p class="addr">${esc(p.address.line)}</p>
+    <p class="sub">${esc(p.address.city)}, ${esc(p.address.state)} ${esc(p.address.zip)}${p.county?` · ${esc(p.county)} County`:""}</p>
+    <span class="badge" style="background:${color}">${label}</span>
+    <p class="price">${big}</p>
+    <p class="sub">${bigNote}</p>
+    <div class="facts">
+      <div><b>${num(p.beds)}</b><span>beds</span></div>
+      <div><b>${num(p.baths)}</b><span>baths</span></div>
+      <div><b>${num(p.sqft)}</b><span>sqft</span></div>
+      <div><b>${num(p.lot_sqft)}</b><span>lot sqft</span></div>
+      <div><b>${p.year_built??"—"}</b><span>built</span></div>
+      <div><b>${t?$(t.tax_paid):"—"}</b><span>tax ${t?t.year:""}</span></div>
+    </div>
+  </div>
+  ${p.photos.length?`<div class="card"><div class="photos">${p.photos.slice(0,12).map(u=>`<img loading="lazy" src="${esc(u)}" alt="">`).join("")}</div></div>`:""}
+  ${r.price_history.length?`<div class="card"><h2>Price history</h2><table>${r.price_history.map(e=>`<tr><td class="m">${e.date}</td><td>${esc(e.event_raw)}</td><td>${$(e.price)}</td></tr>`).join("")}</table></div>`:""}
+  ${r.tax_history.length?`<div class="card"><h2>Taxes &amp; assessed value</h2><table>${r.tax_history.slice(0,8).map(x=>`<tr><td class="m">${x.year}</td><td>${$(x.tax_paid)} tax</td><td>${x.assessed_total!=null?$(x.assessed_total)+" assessed":"—"}</td></tr>`).join("")}</table></div>`:""}
+  ${p.source_url?`<p class="sub"><a href="${esc(p.source_url)}" rel="noopener">See the listing</a></p>`:""}`;
+}
+async function look(addr){
+  const btn=document.getElementById("go"); btn.disabled=true; btn.textContent="Looking…";
+  try{ const res=await fetch("/api/lookup?address="+encodeURIComponent(addr)); render(await res.json()); window.va&&va("event",{name:"lookup",data:{found:res.ok}}); }
+  catch(e){ render({found:false,error:"Lookup failed. Try again."}); }
+  finally{ btn.disabled=false; btn.textContent="Look up"; }
+}
+document.getElementById("f").addEventListener("submit",e=>{e.preventDefault();const a=document.getElementById("q").value.trim();if(!a)return;history.replaceState(null,"","?a="+encodeURIComponent(a));look(a);});
+const pre=new URLSearchParams(location.search).get("a");
+if(pre){document.getElementById("q").value=pre;look(pre);}
+else fetch("/example.json").then(r=>r.json()).then(render).catch(()=>look(document.getElementById("q").value));
+</script>
+</body>
+</html>
