@@ -1,1 +1,1 @@
-{ "buildCommand": "echo build", "outputDirectory": "." }
+{ "buildCommand": "echo build", "outputDirectory": "public" }
